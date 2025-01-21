@@ -1,16 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
+    font-family: Inter, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+body{
+    width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    background-color:rgba(0, 204, 255, 1);
 }
 
-body{
-    width: 100%;
-    min-height: 100vh;
+
+.nav-color-custom{
+    color: rgb(255, 255, 255)  !important;
+    font-weight: 300;
+    font-size: 1.3rem;
+    
 }
 
-.container{
-    width: 100%;
-    min-height: 100vh;
-    background-color: #f1f1f1;
+.logo-custom{
+    width: 80%;
+    max-width: 100px;
+}
+
+.navbar-custom{
+    background-color: rgb(237, 58, 58) !important;
 }
