@@ -1,0 +1,49 @@
+
+
+ /* Estilização do header */
+ .navbar {
+    background: linear-gradient(45deg,rgba(0, 204, 255, 1), #007bff);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #ffcc00 !important;
+}
+.btn-cta {
+    background: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.btn-cta:hover {
+    background: #ff9900;
+    color: #fff;
+}
+
+.logoImg{
+    max-width: 60%;
+}
+
+.my-shadow {
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px; /* Aumenta a fonte */
+    font-weight: bold; /* Deixa mais forte */
+    color: #ffffff; /* Cor padrão dos links */
+    transition: color 0.3s ease-in-out; /* Suaviza a troca de cor */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #aaf702 !important; /* Cor ao passar o mouse */
+}
+
