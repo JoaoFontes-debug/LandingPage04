@@ -1,0 +1,41 @@
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1; /* Mantém o vídeo no fundo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+/* Ajusta o vídeo para cobrir a tela */
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.4; /* Ajuste para transparência */
+}
+  
+/* Conteúdo sobre o vídeo */
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+  
+/* Adiciona um fundo semitransparente sobre o vídeo para melhorar a leitura */
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Ajuste a transparência */
+    z-index: -1;
+}

@@ -1,4 +1,10 @@
+html{
 
+}
+
+body{
+    
+}
 
  /* Estilização do header */
  .navbar {
@@ -29,7 +35,7 @@
 }
 
 .logoImg{
-    max-width: 60%;
+    max-width: 40%;
 }
 
 .my-shadow {
@@ -47,3 +53,20 @@
     color: #aaf702 !important; /* Cor ao passar o mouse */
 }
 
+
+
+/* DO VIDEO */
+/* .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} */
