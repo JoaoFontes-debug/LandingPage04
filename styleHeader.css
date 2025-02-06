@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    
+    background-color: #eee;
 }
 
  /* Estilização do header */
@@ -19,9 +19,11 @@ body{
     color: #fff !important;
     font-weight: 500;
 }
+
 .nav-link:hover {
     color: #ffcc00 !important;
 }
+
 .btn-cta {
     background: #ffcc00;
     color: #333;
